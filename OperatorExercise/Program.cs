@@ -7,7 +7,8 @@
             //Exercise - 1
             int a = 17;
             int b = 4;
-            Console.WriteLine($"Sum : {Addition(a, b)}\nDifference : {Subtraction(a,b)}\nMultiplication : {Multiplication(a, b)}\nQuotient : {Division(a, b)}   Reminder : {Reminder(a, b)}");
+            Console.WriteLine($"Sum : {Addition(a, b)}\nDifference : {Subtraction(a,b)}\nMultiplication : {Multiplication(a, b)}");
+            Console.WriteLine($"17/4 is  Quotient : {Division(a, b)} Reminder : {Reminder(a, b)}");
             //Exercise - 2
             Console.WriteLine("Please enter the radius to calculate area of a circle.");
             double radius = double.Parse(Console.ReadLine());
@@ -29,7 +30,7 @@
             return a * b;
         }
 
-        public static double Division(double a, double b)
+        public static int Division(int a, int b)
         {
             return a / b;
         }
